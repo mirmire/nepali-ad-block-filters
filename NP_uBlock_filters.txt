@@ -6,6 +6,8 @@
 !
 
 ! https://www.onlinekhabar.com
+www.onlinekhabar.com##.ok_roadblock
+www.onlinekhabar.com##.ok18-m-square-ad
 www.onlinekhabar.com##.okam-each-ad
 
 ! https://kathmandupost.com
@@ -13,11 +15,15 @@ kathmandupost.com###roadblock-ad
 ||assets-cdn.kathmandupost.com/uploads/source/ads/$image
 
 ! https://ekantipur.com
-ekantipur.com###roadblock-ad
+ekantipur.com##.smartbanner--ios
+ekantipur.com##.sponsor-mobile
 ekantipur.com##.static-sponsor
+ekantipur.com##.sticky--bottom
+ekantipur.com##.video-ad-title
 ekantipur.com##.video-sponsor
 ekantipur.com##div.kdaily-high-ad:nth-of-type(even)
 ekantipur.com##div.kdaily-high-ad:nth-of-type(odd)
+ekantipur.com###roadblock-ad
 
 ! http://annapurnapost.com
 annapurnapost.com##.advertisement
@@ -30,26 +36,35 @@ ujyaaloonline.com##.ad
 www.dcnepal.com##.gam-each-ad
 
 ! https://www.setopati.com
-www.setopati.com##.main-bigyaapan
-www.setopati.com##.top-bigyaapan
-www.setopati.com##.full-bigyaapan
-www.setopati.com##.slider-ad
 www.setopati.com##.bigyaapan-item
+www.setopati.com##.desktop-bigyaapan
+www.setopati.com##.footer-fixed-bigyaapan
+www.setopati.com##.full-bigyaapan
 www.setopati.com##.insert-ad
-||img.setopati.org/uploads/bigyapan/$image
+www.setopati.com##.main-bigyaapan
+www.setopati.com##.slider-ad
+www.setopati.com##.top-bigyaapan
+||img.setopati.org/uploads/bigyapan/*.jpg$image
+||img.setopati.com/uploads/bigyapan/*.gif$image
 
 ! https://nagariknews.nagariknetwork.com
 nagariknews.nagariknetwork.com##.add-section
+nagariknews.nagariknetwork.com##.app-message.only-mobile
 nagariknews.nagariknetwork.com##.first-add
 nagariknews.nagariknetwork.com##.fixed-ad
 nagariknews.nagariknetwork.com##.add-container
 nagariknews.nagariknetwork.com##.box-news-ad
 
 ! http://www.ratopati.com
+ratopati.com##.mobile-advert
 ||ratopati.prixacdn.net/media/*.gif$image
+||ratopati.prixacdn.net/media/*ncell*.jpg$image
+
 
 ! https://saptahik.com.np
+saptahik.com.np##.kan_ads
 saptahik.com.np###road-block
+saptahik.com.np###sticky--bottom
 
 ! https://nepalmag.com.np
 nepalmag.com.np###roadblock-ad
