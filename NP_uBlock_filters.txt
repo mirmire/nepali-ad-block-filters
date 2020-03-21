@@ -2,10 +2,13 @@
 www.onlinekhabar.com##.okam-each-ad
 
 ! https://kathmandupost.com
+kathmandupost.com###roadblock-ad
 ||assets-cdn.kathmandupost.com/uploads/source/ads/$image
 
 ! https://ekantipur.com
+ekantipur.com###roadblock-ad
 ekantipur.com##.static-sponsor
+ekantipur.com##.video-sponsor
 ekantipur.com##div.kdaily-high-ad:nth-of-type(even)
 ekantipur.com##div.kdaily-high-ad:nth-of-type(odd)
 
@@ -37,3 +40,15 @@ nagariknews.nagariknetwork.com##.box-news-ad
 
 ! http://www.ratopati.com
 ||ratopati.prixacdn.net/media/*.gif$image
+
+! https://saptahik.com.np
+saptahik.com.np###road-block
+
+! https://nepalmag.com.np
+nepalmag.com.np###roadblock-ad
+
+! https://narimag.com.np
+narimag.com.np###road-block
+
+! https://kantipurtv.com
+kantipurtv.com###road-block
