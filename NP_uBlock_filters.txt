@@ -1,0 +1,39 @@
+! https://www.onlinekhabar.com
+www.onlinekhabar.com##.okam-each-ad
+
+! https://kathmandupost.com
+||assets-cdn.kathmandupost.com/uploads/source/ads/$image
+
+! https://ekantipur.com
+ekantipur.com##.static-sponsor
+ekantipur.com##div.kdaily-high-ad:nth-of-type(even)
+ekantipur.com##div.kdaily-high-ad:nth-of-type(odd)
+
+! http://annapurnapost.com
+annapurnapost.com##.advertisement
+annapurnapost.com##.sticky-footer
+
+! https://ujyaaloonline.com
+ujyaaloonline.com##.ad
+
+! https://www.dcnepal.com
+www.dcnepal.com##.gam-each-ad
+
+! https://www.setopati.com
+www.setopati.com##.main-bigyaapan
+www.setopati.com##.top-bigyaapan
+www.setopati.com##.full-bigyaapan
+www.setopati.com##.slider-ad
+www.setopati.com##.bigyaapan-item
+www.setopati.com##.insert-ad
+||img.setopati.org/uploads/bigyapan/$image
+
+! https://nagariknews.nagariknetwork.com
+nagariknews.nagariknetwork.com##.add-section
+nagariknews.nagariknetwork.com##.first-add
+nagariknews.nagariknetwork.com##.fixed-ad
+nagariknews.nagariknetwork.com##.add-container
+nagariknews.nagariknetwork.com##.box-news-ad
+
+! http://www.ratopati.com
+||ratopati.prixacdn.net/media/*.gif$image
