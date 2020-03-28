@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 20200321
+! Version: 20200328
 ! Title: Nepali ad blocking filters
 ! Expires: 4 days
 ! Homepage: https://github.com/mirmire/nepali-ad-block-filters
@@ -23,6 +23,7 @@ ekantipur.com##.video-ad-title
 ekantipur.com##.video-sponsor
 ekantipur.com##div.kdaily-high-ad:nth-of-type(even)
 ekantipur.com##div.kdaily-high-ad:nth-of-type(odd)
+ekantipur.com###browser-message
 ekantipur.com###roadblock-ad
 
 ! http://annapurnapost.com
