@@ -1,2 +1,13 @@
+! https://ekantipur.com
+ekantipur.com##.bottom-share-count
+ekantipur.com##.comment
+
+! https://kathmandupost.com
+kathmandupost.com##.block-side.col-sm-4 > .block-money--c
+kathmandupost.com##.block-side.block-epaper
+kathmandupost.com##.social-scroll
+||assets-cdn.kantipurdaily.com/uploads/source/ads/*.jpg$image
+
 ! https://www.onlinekhabar.com
 www.onlinekhabar.com##.emo_sectn
+www.onlinekhabar.com##.ok18-comment-wrap
