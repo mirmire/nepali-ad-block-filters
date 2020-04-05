@@ -1,8 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 20200328
+! Version: 20200405
 ! Title: Nepali ad blocking filters
 ! Expires: 4 days
 ! Homepage: https://github.com/mirmire/nepali-ad-block-filters
+!
+!#include nepali_annoyances.txt
 !
 
 ! https://www.onlinekhabar.com
