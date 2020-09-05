@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 20200405
+! Version: 20200905
 ! Title: Nepali ad blocking filters
 ! Expires: 4 days
 ! Homepage: https://github.com/mirmire/nepali-ad-block-filters
@@ -13,10 +13,11 @@ www.onlinekhabar.com##.ok18-m-square-ad
 www.onlinekhabar.com##.okam-each-ad
 
 ! https://kathmandupost.com
-kathmandupost.com###roadblock-ad
 ||assets-cdn.kathmandupost.com/uploads/source/ads/$image
+kathmandupost.com###roadblock-ad
 
 ! https://ekantipur.com
+||assets-cdn.kantipurdaily.com/uploads/source/ads/$image
 ekantipur.com##.smartbanner--ios
 ekantipur.com##.sponsor-mobile
 ekantipur.com##.static-sponsor
@@ -39,6 +40,11 @@ ujyaaloonline.com##.ad
 www.dcnepal.com##.gam-each-ad
 
 ! https://www.setopati.com
+||img.setopati.org/uploads/bigyapan/*.jpg$image
+||img.setopati.com/uploads/bigyapan/*.gif$image
+||img.setoparty.com/uploads/bigyapan/*$image
+setopati.com##.main-bigyaapan
+setopati.com##.mast-head.col-md-12
 www.setopati.com##.bigyaapan-item
 www.setopati.com##.desktop-bigyaapan
 www.setopati.com##.footer-fixed-bigyaapan
@@ -47,8 +53,6 @@ www.setopati.com##.insert-ad
 www.setopati.com##.main-bigyaapan
 www.setopati.com##.slider-ad
 www.setopati.com##.top-bigyaapan
-||img.setopati.org/uploads/bigyapan/*.jpg$image
-||img.setopati.com/uploads/bigyapan/*.gif$image
 
 ! https://nagariknews.nagariknetwork.com
 nagariknews.nagariknetwork.com##.add-section
@@ -59,9 +63,9 @@ nagariknews.nagariknetwork.com##.add-container
 nagariknews.nagariknetwork.com##.box-news-ad
 
 ! http://www.ratopati.com
-ratopati.com##.mobile-advert
 ||ratopati.prixacdn.net/media/*.gif$image
 ||ratopati.prixacdn.net/media/*ncell*.jpg$image
+ratopati.com##.mobile-advert
 
 
 ! https://saptahik.com.np
@@ -77,3 +81,21 @@ narimag.com.np###road-block
 
 ! https://kantipurtv.com
 kantipurtv.com###road-block
+
+! https://risingnepaldaily.com
+risingnepaldaily.com##.add
+risingnepaldaily.com##.adds
+risingnepaldaily.com##.addvertise
+
+! https://gorkhapatraonline.com
+gorkhapatraonline.com##.add
+gorkhapatraonline.com##.adds
+
+! https://www.himalkhabar.com
+||www.himalkhabar.com/uploads/bigyapan/*$image
+||img.himalkhabar.de/uploads/bigyaapan/*$image
+www.himalkhabar.com###header > .mb-3.mt-3.section > .container > .full-bigyaapan-box
+www.himalkhabar.com##div.mb-3.mt-3.section:nth-of-type(even) > .container > .full-bigyaapan-box
+www.himalkhabar.com##div.mb-3.mt-3.section:nth-of-type(odd) > .container > .full-bigyaapan-box
+www.himalkhabar.com##.col-md-3.col-sm-3.bigyaapan-side.quiz-item
+www.himalkhabar.com##.mb-5.bigyaapan-item
