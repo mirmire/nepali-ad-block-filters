@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 20200905
+! Version: 20210529
 ! Title: Nepali ad blocking filters
 ! Expires: 4 days
 ! Homepage: https://github.com/mirmire/nepali-ad-block-filters
@@ -10,7 +10,9 @@
 ! https://www.onlinekhabar.com
 www.onlinekhabar.com##.ok_roadblock
 www.onlinekhabar.com##.ok18-m-square-ad
+www.onlinekhabar.com##.okam-ad-position-wrap
 www.onlinekhabar.com##.okam-each-ad
+www.onlinekhabar.com##.tribox-add
 
 ! https://kathmandupost.com
 ||assets-cdn.kathmandupost.com/uploads/source/ads/$image
@@ -28,6 +30,7 @@ ekantipur.com##div.kdaily-high-ad:nth-of-type(even)
 ekantipur.com##div.kdaily-high-ad:nth-of-type(odd)
 ekantipur.com###browser-message
 ekantipur.com###roadblock-ad
+ekantipur.com##.daraz-sponser
 
 ! http://annapurnapost.com
 annapurnapost.com##.advertisement
@@ -62,11 +65,13 @@ nagariknews.nagariknetwork.com##.fixed-ad
 nagariknews.nagariknetwork.com##.add-container
 nagariknews.nagariknetwork.com##.box-news-ad
 
+! https://myrepublica.nagariknetwork.com
+myrepublica.nagariknetwork.com###main-advertisement
+
 ! http://www.ratopati.com
 ||ratopati.prixacdn.net/media/*.gif$image
 ||ratopati.prixacdn.net/media/*ncell*.jpg$image
 ratopati.com##.mobile-advert
-
 
 ! https://saptahik.com.np
 saptahik.com.np##.kan_ads
@@ -99,3 +104,15 @@ www.himalkhabar.com##div.mb-3.mt-3.section:nth-of-type(even) > .container > .ful
 www.himalkhabar.com##div.mb-3.mt-3.section:nth-of-type(odd) > .container > .full-bigyaapan-box
 www.himalkhabar.com##.col-md-3.col-sm-3.bigyaapan-side.quiz-item
 www.himalkhabar.com##.mb-5.bigyaapan-item
+
+! https://www.nepalitimes.com
+www.nepalitimes.com##.paid_banner
+www.nepalitimes.com##div.adv-section
+www.nepalitimes.com##.text-white.pri-pad.bg-dark > .container > div.row:nth-of-type(odd)
+www.nepalitimes.com##.text-white.pri-pad.bg-dark > .container > div.row:nth-of-type(even)
+www.nepalitimes.com###content > .container
+www.nepalitimes.com##div.events-list:nth-of-type(4)
+www.nepalitimes.com##.about-page-detailing > div.container:nth-of-type(1)
+www.nepalitimes.com##div.qfx-adsense
+www.nepalitimes.com##[href="https://www.dishhome.com.np/"]
+www.nepalitimes.com##div.elementor-section-boxed > [href]
